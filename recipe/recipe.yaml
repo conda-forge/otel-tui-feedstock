@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.1"
+  version: "0.6.2"
 
 package:
   name: otel-tui
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/ymtdzzz/otel-tui/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 8f1f46bfc87a7100c533ddd4ced3af4380e4eae8b0a103ab98f8a4c776ac8908
+  sha256: fddf03b33b30321634003efb166c31cf052a9e9fbfb579b8c83067967548c615
   target_directory: src
 
 build:
